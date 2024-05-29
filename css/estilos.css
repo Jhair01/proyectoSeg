@@ -227,3 +227,40 @@ input[type="submit"]{
 		width: 98%;
 	}
 }
+
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 50px;
+}
+h1 {
+	text-align: center;
+	color: #333;
+}
+.game {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.game:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.game img {
+	max-width: 100px;
+	display: block;
+	margin: auto;
+}
+.game h2 {
+	text-align: center;
+	margin-top: 10px;
+	color: #333;
+}
+.game p {
+	text-align: center;
+	color: #666;
+}
